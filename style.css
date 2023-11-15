@@ -1,0 +1,112 @@
+body{
+    font-family: helvetica;
+    font-size: 22px;
+    color:seashell;
+    opacity: 0.9;
+    background: black;
+    margin: auto;
+    width: 1200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+nav{
+    display: inline-flex;
+}
+li{
+    display: inline-flex;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.section-1{
+    height: 700px;
+    width: 1200px;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+text-align: center;
+width: 1200px;
+background:black;
+line-height: 20px;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.section-2 h1{
+    font-size: 35px;
+}
+.boxi-box{    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    align-content: center;
+}
+img{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-box{
+    margin: 20px;
+    text-align: center;
+}
+
+.boxititle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10px;
+    align-items: center;
+}
+
+.section-3{
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-noir{
+    display: inline-flex;
+    gap: 40px;
+    text-align: center;
+}
+
+
+.box-noir>div{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    background: black;
+}
+.footer{
+    line-height: 50px;
+    text-align: center;
+    height: 200px;
+}
+span{
+    margin-left: 20px;
+} 
