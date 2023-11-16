@@ -5,7 +5,7 @@ body{
     opacity: 0.9;
     background: black;
     margin: auto;
-    width: 1200px;
+    width: 100vw;
 }
 
 header{
@@ -26,10 +26,14 @@ li{
     text-decoration: underline;
     padding-right: 1vw;
 }
-
+.section-11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .section-1{
     height: 80vh;
-    width: 1200px;
+    width: 90vw;
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-size: cover;
     background-position: center;
@@ -39,7 +43,7 @@ li{
 }
 .message{
 text-align: center;
-width: 1200px;
+width: 90vw;
 background:black;
 line-height: 20px;
 }
