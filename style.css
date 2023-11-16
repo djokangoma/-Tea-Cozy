@@ -26,12 +26,12 @@ li{
     text-decoration: underline;
     padding-right: 1vw;
 }
-.section-11{
+.section-1{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.section-1{
+.section-11{
     height: 80vh;
     width: 90vw;
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
