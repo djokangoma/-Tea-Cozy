@@ -11,12 +11,12 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    height: 69px;
+    height: 10vh;
     border-bottom: 1px solid seashell;
 }
 .logo{
-    height: 50px;
-    margin-left: 10px;
+    height: 8vh;
+    margin-left: 2vw;
 }
 nav{
     display: inline-flex;
@@ -24,11 +24,11 @@ nav{
 li{
     display: inline-flex;
     text-decoration: underline;
-    padding-right: 10px;
+    padding-right: 1vw;
 }
 
 .section-1{
-    height: 700px;
+    height: 80vh;
     width: 1200px;
     background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-size: cover;
